@@ -13,7 +13,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Run Sass
 ``` 
-npm run sass
+    npm run sass
 ```
 
 The `npm run sass` command runs the sass/scss compiler. All scss assets are located in the `assets/scss/` directory and compiled to the `assets/css/` directory. See scss architecture notes below.
