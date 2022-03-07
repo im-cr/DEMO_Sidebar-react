@@ -429,7 +429,6 @@ a:visited {
   transition: all 0.2s ease-out;
 }
 .aside--global.is-hidden:hover {
-  background-color: #e0e0d8;
   background-color: #ff6170;
 }
 .aside--global.is-hidden .aside-trigger a {
@@ -458,6 +457,18 @@ a:visited {
   width: 100%;
   height: 100%;
   color: #ff6170;
+}
+.aside--global.rtl {
+  right: 0;
+}
+.aside--global.rtl.is-hidden {
+  transform: translateX(95%);
+  transition: all 0.2s ease-out;
+}
+.aside--global.rtl .aside-trigger {
+  left: -2.2rem;
+  right: auto;
+  border-radius: 8px 0px 0px 8px;
 }
 
 .header--global {

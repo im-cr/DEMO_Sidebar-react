@@ -17,7 +17,7 @@
             transition: all .2s ease-out;
 
             &:hover{
-                background-color:darken($bg-gray-lite,5%);
+                // background-color:darken($bg-gray-lite,5%);
                 background-color:$brand-11;
             }
             .aside-trigger {
@@ -52,6 +52,23 @@
                 height:100%;
                 
                 color:$brand-11;
+            }
+        }
+
+        //reposition sidebar to rightside
+        &.rtl{
+            right:0;
+
+            &.is-hidden{
+                transform: translateX(95%);
+                transition: all .2s ease-out;
+
+            }
+
+            .aside-trigger{
+                left:-2.2rem;
+                right:auto;
+                border-radius: 8px 0px 0px 8px;
             }
         }
     }
