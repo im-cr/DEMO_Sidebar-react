@@ -5,12 +5,16 @@ A simple navigation demo built by Cortney Robinson.
 ## Scripts
 
 ### Start App
-``` npm run start```
+``` 
+    npm run start
+```
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Run the `npm run start` script in order to run this react app locally. 
 
 ### Run Sass
-```npm run sass```
+``` 
+npm run sass
+```
 
 The `npm run sass` command runs the sass/scss compiler. All scss assets are located in the `assets/scss/` directory and compiled to the `assets/css/` directory. See scss architecture notes below.
 
