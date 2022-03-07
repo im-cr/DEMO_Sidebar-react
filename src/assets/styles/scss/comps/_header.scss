@@ -1,0 +1,32 @@
+.header{
+
+
+    &--global{
+        display:flex;
+        justify-content: start;
+        align-items: center;
+        width:850px;
+        max-width:850px;
+        min-height:100px;
+        margin:2rem auto;
+        padding: 2rem;
+        border-radius: 8px;
+        background:$bg-wht;
+        box-shadow: 4px 1px 3px rgba(1,1,1,.1);
+
+        a {
+            display:flex;
+            align-items: center;
+            overflow: hidden;
+        }
+        svg {
+            width:100px;
+        }
+
+        @media screen and (max-width:960px){
+            width:80%;
+            min-width:420px;
+            max-width:100%;
+        }
+    }
+}
